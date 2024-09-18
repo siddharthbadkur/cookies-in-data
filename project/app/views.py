@@ -10,8 +10,6 @@ def set(request):
   return data
 
 
-    
-
 def get(request):
   print(request.COOKIES),
   name=request.COOKIES['name'],
